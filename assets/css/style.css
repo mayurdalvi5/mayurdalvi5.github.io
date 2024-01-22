@@ -615,7 +615,7 @@ section {
 }
 
 .portfolio .portfolio-wrap::before {
-  content: "Click below to view details 👇";
+  /* content: "Click below to view details 👇"; */
   background: rgba(255, 255, 255, 0.5);
   position: absolute;
   left: 0;
@@ -668,7 +668,11 @@ section {
   opacity: 1;
   bottom: 0;
 }
-
+.rounded-image {
+  width: 80%; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Adjust the border-radius for rounded edges */
+}
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
