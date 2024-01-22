@@ -674,6 +674,11 @@ section {
   border-radius: 10px; /* Adjust the border-radius for rounded edges */
 }
 
+.rounded-image1 {
+  width: 10%; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Adjust the border-radius for rounded edges */
+}
 
 .image-link {
   position: relative;
